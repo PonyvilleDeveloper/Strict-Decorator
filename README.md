@@ -6,13 +6,13 @@ Works with single functions and class methods
 ## Usage:
 ```Python
 @strict
-    def foo(a: int): pass
-    foo(9) #Ok
+def foo(a: int): pass
+foo(9) #Ok
 
-    class test:
-        @strict
-        def foo(self, a: int): pass
+class test:
+    @strict
+    def foo(self, a: int): pass
 
-    t = test()
-    t.foo('8') #TypeError
+t = test()
+t.foo('8') #TypeError
 ```
