@@ -4,7 +4,7 @@ Decorator implements type-checking for functions via type-annotations in Python.
 Works with single functions and class methods
 
 ## Usage:
-```
+```Python
 @strict
     def foo(a: int): pass
     foo(9) #Ok
